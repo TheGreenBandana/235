@@ -1,0 +1,14 @@
+/* Do everything in this file */
+
+h2 {
+    border-bottom: thin solid rgb(255, 0, 0);
+    clear:
+}
+div.tet{
+    float:right;
+    width:40%;
+}
+div.tet img{
+    margin: 2em;
+    width: auto
+}
