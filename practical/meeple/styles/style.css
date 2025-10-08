@@ -1,0 +1,63 @@
+/* Link states */
+a:default{color:blue; text-decoration-line:none}
+a:visited{color: rgb(128,128,255)}
+a:focus{outline: 2px solid #ffa500}
+a:hover{color: rgb(0,0,128)}
+a:active{color: red}
+/* and four more */
+
+/* Header styling */
+header {
+    background-color: burlywood;
+    border: 2px solid gray;
+    padding: 20px;
+    text-align:center;
+    font-size: 1.5rem;
+}
+
+/* Footer styling */
+footer {
+    background-color:darkgrey;
+    text-decoration-color: white;
+    margin:auto;
+    text-align: center;
+    padding: 20px;
+}
+footer > p{
+    color:white;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* Feel free to add any additional CSS rules that you need */
+
+#homeDescription{
+    font-size:1.2rem;
+    font-style:italic;
+}
+
+/* Game list styling using flexbox or grid */
+.game-list {
+    display:flex;
+    flex-wrap:wrap;
+}
+  
+.game {
+    border: thin solid black;
+    padding: 2em;
+    background-color:lightgray;
+    min-width: 500px;
+}
+  
+.game h3 {
+    text-align:center;
+    font-size:2rem;
+    color: chocolate;
+}
+.game > p{
+    text-align:center;
+}
+  
