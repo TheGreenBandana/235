@@ -28,8 +28,8 @@ blockquote{
 }
 
 #schools, #carmel{
-    min-width: 25vw;
-    max-width: 40vw;
+    min-width: 500px;
+    max-width: 600px;
 }
 
 h1{
@@ -55,7 +55,7 @@ h2{
 }
 
 #potter{
-    max-width:15vw;
+    max-width:250px;
 }
 
 #chomp{
