@@ -1,0 +1,81 @@
+
+body{margin:auto; max-width:1000px}
+
+footer{
+    padding-bottom:20px;
+}
+
+blockquote{
+    background-color: black;
+    color: white;
+    text-align:center;
+    font-family:monospace;
+    padding:.5rem, 20px;
+}
+
+.boxed{
+    outline: 2px solid black;
+    padding: 1rem;
+}
+
+.left{
+    float:left;
+    margin-right:1rem;
+}
+.right{
+    float:right;
+    margin-left:1rem;
+}
+
+#schools, #carmel{
+    min-width: 25vw;
+    max-width: 40vw;
+}
+
+h1{
+    font-size-adjust:1.3;
+    text-align:center;
+}
+h2{
+    font-size-adjust:.7;
+    text-align:center;
+}
+
+.byline{
+    text-align:center;
+}
+.title{
+    text-align:left;
+}
+
+#potter > h2{font-size-adjust:.5;}
+
+.clears{
+    clear:both;
+}
+
+#potter{
+    max-width:15vw;
+}
+
+#chomp{
+    clear:right;
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-template-areas:
+    "title title title"
+    "leftImage body rightImage";
+}
+
+#chTitle{grid-area:title; text-align:center}
+#chImg1{grid-area:leftImage}
+#chBody{grid-area:body; margin:auto 1rem;}
+#chImg2{grid-area:rightImage}
+
+
+a:link{color:aquamarine}
+a:visited{color:blueviolet}
+a:focus{color:orangered}
+a:hover{color:black}
+a:active{color:white}
